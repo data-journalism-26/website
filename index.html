@@ -4,7 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Hertie Times</title>
-  <meta name="description" content="Data journalism from the Hertie School, Berlin — Spring 2026.">
+  <meta name="description" content="Student projects from the Data Journalism course at the Hertie School, Berlin.">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="The Hertie Times">
+  <meta property="og:description" content="Student projects from the Data Journalism course at the Hertie School, Berlin.">
+  <meta property="og:url"         content="https://data-journalism-26.github.io/website/">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="The Hertie Times">
+  <meta name="twitter:description" content="Student projects from the Data Journalism course at the Hertie School, Berlin.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
@@ -12,21 +24,65 @@
 </head>
 <body>
 
-  <!-- Masthead -->
+  <!-- ── Masthead ── -->
   <header class="masthead" id="top">
+    <!-- Low-poly geometric background (aerial/satellite colour palette) -->
+    <svg class="masthead-bg" xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 1200 210" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <!-- Row 1: top triangles -->
+      <polygon points="0,0 200,0 100,80"        fill="#1a3550"/>
+      <polygon points="200,0 100,80 300,65"     fill="#1e4d6e"/>
+      <polygon points="200,0 400,0 300,65"      fill="#0d3a4a"/>
+      <polygon points="400,0 300,65 500,90"     fill="#1e5874"/>
+      <polygon points="400,0 600,0 500,90"      fill="#164060"/>
+      <polygon points="600,0 500,90 700,70"     fill="#0e2a3e"/>
+      <polygon points="600,0 800,0 700,70"      fill="#1a3550"/>
+      <polygon points="800,0 700,70 900,85"     fill="#1e4d6e"/>
+      <polygon points="800,0 1000,0 900,85"     fill="#0d3a4a"/>
+      <polygon points="1000,0 900,85 1100,60"   fill="#254060"/>
+      <polygon points="1000,0 1200,0 1100,60"   fill="#1a3550"/>
+      <polygon points="1200,0 1100,60 1200,155" fill="#164060"/>
+      <!-- Row 2: middle triangles -->
+      <polygon points="0,0 100,80 0,155"           fill="#0e2a3e"/>
+      <polygon points="100,80 0,155 200,145"        fill="#1a4555"/>
+      <polygon points="100,80 300,65 200,145"       fill="#2a5568"/>
+      <polygon points="300,65 200,145 400,160"      fill="#1a3550"/>
+      <polygon points="300,65 500,90 400,160"       fill="#1e4d6e"/>
+      <polygon points="500,90 400,160 600,140"      fill="#0d3a4a"/>
+      <polygon points="500,90 700,70 600,140"       fill="#164060"/>
+      <polygon points="700,70 600,140 800,155"      fill="#1a5a6e"/>
+      <polygon points="700,70 900,85 800,155"       fill="#1a3550"/>
+      <polygon points="900,85 800,155 1000,145"     fill="#0e2a3e"/>
+      <polygon points="900,85 1100,60 1000,145"     fill="#2a5568"/>
+      <polygon points="1100,60 1000,145 1200,155"   fill="#254060"/>
+      <!-- Row 3: bottom fill -->
+      <polygon points="0,155 200,145 0,210"         fill="#0c1d2e"/>
+      <polygon points="200,145 0,210 200,210"        fill="#1a3550"/>
+      <polygon points="200,145 400,160 200,210"      fill="#0e2a3e"/>
+      <polygon points="400,160 200,210 400,210"      fill="#1e4d6e"/>
+      <polygon points="400,160 600,140 400,210"      fill="#1a4555"/>
+      <polygon points="600,140 400,210 600,210"      fill="#0d3a4a"/>
+      <polygon points="600,140 800,155 600,210"      fill="#164060"/>
+      <polygon points="800,155 600,210 800,210"      fill="#1a3550"/>
+      <polygon points="800,155 1000,145 800,210"     fill="#0c1d2e"/>
+      <polygon points="1000,145 800,210 1000,210"    fill="#2a5568"/>
+      <polygon points="1000,145 1200,155 1000,210"   fill="#1a3550"/>
+      <polygon points="1200,155 1000,210 1200,210"   fill="#1e4d6e"/>
+    </svg>
+
     <div class="masthead-inner">
       <div class="masthead-eyebrow">
         <span>Berlin</span>
         <span>Spring 2026</span>
         <span>Data Journalism</span>
       </div>
-      <hr class="rule">
+      <hr class="rule rule--masthead">
       <div class="masthead-name">The Hertie Times</div>
-      <hr class="rule rule--bold">
+      <hr class="rule rule--masthead rule--masthead-bold">
     </div>
   </header>
 
-  <!-- Sticky navigation — links populated by app.js -->
+  <!-- ── Sticky navigation — links populated by app.js ── -->
   <nav class="top-nav" id="top-nav" aria-label="Section navigation">
     <div class="top-nav-inner">
       <a class="nav-brand" href="#top">The Hertie Times</a>
@@ -37,7 +93,7 @@
 
   <main>
 
-    <!-- Featured stories (editor's picks) — rendered by app.js -->
+    <!-- ── Featured stories (editor's picks) — rendered by app.js ── -->
     <section class="featured-section" id="featured">
       <div class="container">
         <div class="picks-grid" id="picks-grid">
@@ -46,7 +102,7 @@
       </div>
     </section>
 
-    <!-- Subtle search bar between featured and topics -->
+    <!-- ── Search band ── -->
     <div class="search-band">
       <div class="container">
         <div class="search-wrap">
@@ -63,15 +119,18 @@
       </div>
     </div>
 
-    <!-- Topic sections — rendered by app.js -->
+    <!-- ── Topic sections + sidebar — rendered by app.js ── -->
     <section class="topics-section">
       <div class="container">
-        <div id="categories"></div>
+        <div class="topics-layout">
+          <div id="categories" class="topics-main"></div>
+          <aside class="topics-sidebar" id="data-bits-sidebar" aria-label="Data Bits"></aside>
+        </div>
         <p id="no-results" class="no-results" hidden></p>
       </div>
     </section>
 
-    <!-- About -->
+    <!-- ── About ── -->
     <section class="about-section" id="about">
       <div class="container">
         <h2 class="about-heading">About</h2>
