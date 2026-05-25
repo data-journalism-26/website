@@ -67,6 +67,20 @@ window.sidebarThumbFallback = function (img, author) {
   img.parentNode.innerHTML = avatarHTML(author);
 };
 
+// Article image for big card-image slots. Falls back to initials avatar.
+window.articleImgFallback = function (img, author) {
+  img.parentNode.innerHTML = avatarHTML(author);
+};
+
+function articleImgHTML(p) {
+  const author = p.authors[0];
+  if (p.image) {
+    const authorJson = JSON.stringify(author).replace(/"/g, '&quot;');
+    return `<img src="${esc(p.image)}" alt="${esc(p.title)}" loading="lazy" onerror="articleImgFallback(this,${authorJson})">`;
+  }
+  return avatarHTML(author);
+}
+
 // Small circular author photo for bylines (picks + lead cards).
 // Falls back to nothing on error — the text byline still shows.
 function authorThumbHTML(p) {
@@ -95,7 +109,7 @@ function pickCardHTML(p, index) {
 
   return `<article class="pick-card ${sizeClass}">
   <a class="card-image-wrap" href="${href}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">
-    <div class="card-image">${avatarHTML(p.authors[0])}</div>
+    <div class="card-image">${articleImgHTML(p)}</div>
   </a>
   <div class="card-body">
     <span class="card-section">${esc(catLabel)}</span>
@@ -120,7 +134,7 @@ function leadCardHTML(p) {
     data-title="${esc(p.title.toLowerCase())}"
     data-authors="${esc(p.authors.join(' ').toLowerCase())}">
   <a class="card-image-wrap" href="${href}" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true">
-    <div class="card-image">${avatarHTML(p.authors[0])}</div>
+    <div class="card-image">${articleImgHTML(p)}</div>
   </a>
   <div class="card-body">
     <h3 class="card-headline"><a href="${href}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a></h3>

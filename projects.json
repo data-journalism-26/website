@@ -3,378 +3,609 @@
     "id": "elenadreyer-final",
     "title": "How a Radar Satellite Tracks Russian Attacks on Ukraine's Power Grid",
     "subtitle": "Using Sentinel-1 SAR imagery to detect damage to energy infrastructure",
-    "authors": ["Elena Dreyer"],
+    "authors": [
+      "Elena Dreyer"
+    ],
     "url": "https://elenaivadreyer.github.io/final-project/",
     "repo": "https://github.com/data-journalism-26/final-project-elenadreyer",
     "category": "conflict",
-    "tags": ["satellite imagery", "Ukraine", "energy infrastructure", "scrollytelling"],
+    "tags": [
+      "satellite imagery",
+      "Ukraine",
+      "energy infrastructure",
+      "scrollytelling"
+    ],
     "assignment": "final-project",
     "editors_pick": true,
     "thumbnail": "female-1.png",
-    "blurb": "An open-source pipeline using radar satellite imagery to detect and map Russian strikes on Ukraine's power grid, with three deep-dive case studies."
+    "blurb": "An open-source pipeline using radar satellite imagery to detect and map Russian strikes on Ukraine's power grid, with three deep-dive case studies.",
+    "image": "thumbnails-visuals/elenadreyer-final.jpg"
   },
   {
     "id": "giorgio-final",
     "title": "The Cyclone Harry on the Central Mediterranean Migration Route",
     "subtitle": "Reconstructing a storm's path and the shipwrecks that occurred during it",
-    "authors": ["Giorgio Coppola"],
+    "authors": [
+      "Giorgio Coppola"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-giorgio_final/",
     "repo": "https://github.com/data-journalism-26/final-project-giorgio_final",
     "category": "migration",
-    "tags": ["meteorology", "Mediterranean", "migration", "ERA5", "scrollytelling"],
+    "tags": [
+      "meteorology",
+      "Mediterranean",
+      "migration",
+      "ERA5",
+      "scrollytelling"
+    ],
     "assignment": "final-project",
     "editors_pick": true,
     "thumbnail": "male-1.png",
-    "blurb": "Combining ERA5 reanalysis data and Meteosat satellite imagery with migrant shipwreck records to reconstruct how a specific storm intersected with lives at sea."
+    "blurb": "Combining ERA5 reanalysis data and Meteosat satellite imagery with migrant shipwreck records to reconstruct how a specific storm intersected with lives at sea.",
+    "image": "thumbnails-visuals/giorgio-final.jpg"
   },
   {
     "id": "sophia-final",
     "title": "Tracking Algerian Military Activity",
     "subtitle": "An original dataset of 143 weekly operational reports from Algeria's army",
-    "authors": ["Sophia Hiss"],
+    "authors": [
+      "Sophia Hiss"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-sophiahiss4/",
     "repo": "https://github.com/data-journalism-26/final-project-sophiahiss4",
     "category": "migration",
-    "tags": ["Algeria", "military", "web scraping", "Arabic NLP", "investigation"],
+    "tags": [
+      "Algeria",
+      "military",
+      "web scraping",
+      "Arabic NLP",
+      "investigation"
+    ],
     "assignment": "final-project",
     "editors_pick": true,
     "thumbnail": "female-2.png",
-    "blurb": "Scraping, OCR-ing, and geolocating 143 weekly Algerian military reports to build the first systematic dataset on migration enforcement in the Sahara."
+    "blurb": "Scraping, OCR-ing, and geolocating 143 weekly Algerian military reports to build the first systematic dataset on migration enforcement in the Sahara.",
+    "image": "thumbnails-visuals/sophia-final.jpg"
   },
   {
     "id": "luca-final",
     "title": "The Caucasus Corridor",
     "subtitle": "How European-to-Asian flights rerouted after Russia closed its airspace",
-    "authors": ["Luca Vellage"],
+    "authors": [
+      "Luca Vellage"
+    ],
     "url": "https://lucavellage.github.io/caucasus-corridor-analysis/",
     "repo": "https://github.com/data-journalism-26/final-project-luca-final",
     "category": "transport",
-    "tags": ["aviation", "GPS interference", "ADS-B", "Caucasus", "scrollytelling"],
+    "tags": [
+      "aviation",
+      "GPS interference",
+      "ADS-B",
+      "Caucasus",
+      "scrollytelling"
+    ],
     "assignment": "final-project",
     "editors_pick": true,
     "thumbnail": "male-2.png",
-    "blurb": "Tracking how flight corridors shifted to the Caucasus after 2022 and how GPS interference now threatens the new routes."
+    "blurb": "Tracking how flight corridors shifted to the Caucasus after 2022 and how GPS interference now threatens the new routes.",
+    "image": "thumbnails-visuals/luca-final.jpg"
   },
   {
     "id": "chirag-final",
     "title": "How Does an Election Forecast Model Work?",
     "subtitle": "An interactive explainer on zweitstimme.org's Bundestagswahl forecast",
-    "authors": ["Chirag Rastogi"],
+    "authors": [
+      "Chirag Rastogi"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-chirag_final/",
     "repo": "https://github.com/data-journalism-26/final-project-chirag_final",
     "category": "public-opinion",
-    "tags": ["elections", "forecasting", "Germany", "explainer", "scrollytelling"],
+    "tags": [
+      "elections",
+      "forecasting",
+      "Germany",
+      "explainer",
+      "scrollytelling"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "male-3.png",
-    "blurb": "A scrollytelling walk-through of the zweitstimme.org forecast model, from poll aggregation to constituency prediction."
+    "blurb": "A scrollytelling walk-through of the zweitstimme.org forecast model, from poll aggregation to constituency prediction.",
+    "image": "thumbnails-visuals/chirag-final.jpg"
   },
   {
     "id": "daniel-final",
     "title": "U.S. Territorial Expansion and Native American Land Loss",
     "subtitle": "A map-based narrative of displacement told through GIS data",
-    "authors": ["Daniel Boppert"],
+    "authors": [
+      "Daniel Boppert"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-daniel_final/",
     "repo": "https://github.com/data-journalism-26/final-project-daniel_final",
     "category": "america",
-    "tags": ["Native Americans", "GIS", "U.S. history", "scrollytelling"],
+    "tags": [
+      "Native Americans",
+      "GIS",
+      "U.S. history",
+      "scrollytelling"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "male-4.png",
-    "blurb": "Combining GIS records of Native American land cessions with U.S. territorial expansion shapefiles to challenge the 'American adventure' narrative."
+    "blurb": "Combining GIS records of Native American land cessions with U.S. territorial expansion shapefiles to challenge the 'American adventure' narrative.",
+    "image": "thumbnails-visuals/daniel-final.jpg"
   },
   {
     "id": "lou-final",
     "title": "Don't Trust the Polls. Don't Ignore Them Either.",
     "subtitle": "A scroll-driven explainer on poll literacy",
-    "authors": ["Lou Caressa"],
+    "authors": [
+      "Lou Caressa"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-lou_final/",
     "repo": "https://github.com/data-journalism-26/final-project-lou_final",
     "category": "public-opinion",
-    "tags": ["polling", "elections", "Germany", "explainer"],
+    "tags": [
+      "polling",
+      "elections",
+      "Germany",
+      "explainer"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "female-4.png",
-    "blurb": "Five common misconceptions about election polls, visualized with real data from the 2025 Bundestagswahl."
+    "blurb": "Five common misconceptions about election polls, visualized with real data from the 2025 Bundestagswahl.",
+    "image": "thumbnails-visuals/lou-final.jpg"
   },
   {
     "id": "oliver-final",
     "title": "The Changing Face of Parliament",
     "subtitle": "Who represents Germany? A data portrait of the Bundestag, 1949–2022",
-    "authors": ["Oliver Schmid"],
+    "authors": [
+      "Oliver Schmid"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-oliver_final/",
     "repo": "https://github.com/data-journalism-26/final-project-oliver_final",
     "category": "domestic-politics",
-    "tags": ["Bundestag", "demographics", "representation", "Germany"],
+    "tags": [
+      "Bundestag",
+      "demographics",
+      "representation",
+      "Germany"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "male-5.png",
-    "blurb": "Age, gender, religion, birthplace, profession — how Germany's parliament has changed over 75 years."
+    "blurb": "Age, gender, religion, birthplace, profession — how Germany's parliament has changed over 75 years.",
+    "image": "thumbnails-visuals/oliver-final.jpg"
   },
   {
     "id": "aishwarya-final",
     "title": "The Geography of Silence — Press Freedom in Türkiye 2015–2025",
     "subtitle": "A decade of press freedom violations mapped and categorized",
-    "authors": ["Aishwarya Ramesh"],
+    "authors": [
+      "Aishwarya Ramesh"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-aishwarya_final/",
     "repo": "https://github.com/data-journalism-26/final-project-aishwarya_final",
     "category": "investigation",
-    "tags": ["Turkey", "press freedom", "MapMF", "scrollytelling"],
+    "tags": [
+      "Turkey",
+      "press freedom",
+      "MapMF",
+      "scrollytelling"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "female-5.png",
-    "blurb": "1,427 incidents of press freedom violations in Turkey, scraped from the Mapping Media Freedom database and categorized by type and geography."
+    "blurb": "1,427 incidents of press freedom violations in Turkey, scraped from the Mapping Media Freedom database and categorized by type and geography.",
+    "image": "thumbnails-visuals/aishwarya-final.jpg"
   },
   {
     "id": "skyler-final",
     "title": "The Parallel Record: Eagle Hills Georgia Ad Investigation",
     "subtitle": "What the Meta Ad Library reveals about who the developer is really selling to",
-    "authors": ["Skyler Speakman"],
+    "authors": [
+      "Skyler Speakman"
+    ],
     "url": null,
     "repo": "https://github.com/data-journalism-26/final-project-skyler_final",
     "category": "investigation",
-    "tags": ["Meta ads", "Georgia", "real estate", "investigation"],
+    "tags": [
+      "Meta ads",
+      "Georgia",
+      "real estate",
+      "investigation"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "male-6.png",
-    "blurb": "If Eagle Hills is selling to Georgians, why are 93% of their ads in English and the resale market runs half in Russian?"
+    "blurb": "If Eagle Hills is selling to Georgians, why are 93% of their ads in English and the resale market runs half in Russian?",
+    "image": "thumbnails-visuals/skyler-final.jpg"
   },
   {
     "id": "nadine-final",
     "title": "Spring on Two Wheels",
     "subtitle": "Pedelecs have made cycling easier — but not safer",
-    "authors": ["Nadine Daum"],
+    "authors": [
+      "Nadine Daum"
+    ],
     "url": "https://rawcdn.githack.com/data-journalism-26/final-project-nadine-final/5af0b976f36848ee365d47d85064c5304cfa48b0/spring-on-two-wheels.html",
     "repo": "https://github.com/data-journalism-26/final-project-nadine-final",
     "category": "transport",
-    "tags": ["cycling", "pedelec", "road safety", "Germany", "Berlin"],
+    "tags": [
+      "cycling",
+      "pedelec",
+      "road safety",
+      "Germany",
+      "Berlin"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "female-6.png",
-    "blurb": "E-bikes have made cycling more accessible, but cyclist fatalities haven't followed the decline in overall road deaths."
+    "blurb": "E-bikes have made cycling more accessible, but cyclist fatalities haven't followed the decline in overall road deaths.",
+    "image": "thumbnails-visuals/nadine-final.jpg"
   },
   {
     "id": "farhan-final",
     "title": "Heat-Stressed India: The Seen and the Unseen",
     "subtitle": "How extreme heat intersects with maternal and child health across India's districts",
-    "authors": ["Farhan Shaikh"],
+    "authors": [
+      "Farhan Shaikh"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-farhan_final/",
     "repo": "https://github.com/data-journalism-26/final-project-farhan_final",
     "category": "climate",
-    "tags": ["India", "heat", "maternal health", "districts", "CEEW"],
+    "tags": [
+      "India",
+      "heat",
+      "maternal health",
+      "districts",
+      "CEEW"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "male-7.png",
-    "blurb": "Merging district-level heat risk indices with health survey data to identify India's double-jeopardy zones."
+    "blurb": "Merging district-level heat risk indices with health survey data to identify India's double-jeopardy zones.",
+    "image": "thumbnails-visuals/farhan-final.jpg"
   },
   {
     "id": "leticia-xiaohan-final",
     "title": "From Ice Cream to Politics: How Opinions Become Numbers",
     "subtitle": "An interactive explainer on polling methodology",
-    "authors": ["Leticia Figueiredo Collado", "Xiaohan Wu"],
+    "authors": [
+      "Leticia Figueiredo Collado",
+      "Xiaohan Wu"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-leticia-xiaohan-final/",
     "repo": "https://github.com/data-journalism-26/final-project-leticia-xiaohan-final",
     "category": "public-opinion",
-    "tags": ["polling", "methodology", "explainer", "interactive"],
+    "tags": [
+      "polling",
+      "methodology",
+      "explainer",
+      "interactive"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "female-7.png",
-    "blurb": "Using a fictional ice cream survey to teach how electoral polls work, then connecting it to real German polling data."
+    "blurb": "Using a fictional ice cream survey to teach how electoral polls work, then connecting it to real German polling data.",
+    "image": "thumbnails-visuals/leticia-xiaohan-final.jpg"
   },
   {
     "id": "ffal-final",
     "title": "Buying Access Through Education",
     "subtitle": "Gender, migration, and career outcomes among Hertie alumni",
-    "authors": ["Ashley Razzo", "Laia Domenech Burin", "Fanus Ghorjani", "Franco Bastida"],
+    "authors": [
+      "Ashley Razzo",
+      "Laia Domenech Burin",
+      "Fanus Ghorjani",
+      "Franco Bastida"
+    ],
     "url": null,
     "repo": "https://github.com/data-journalism-26/final-project-ffal",
     "category": "economics",
-    "tags": ["alumni", "gender pay gap", "migration", "Hertie"],
+    "tags": [
+      "alumni",
+      "gender pay gap",
+      "migration",
+      "Hertie"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "female-8.png",
-    "blurb": "How gender and migration background intersect with career trajectories and compensation among Hertie School graduates."
+    "blurb": "How gender and migration background intersect with career trajectories and compensation among Hertie School graduates.",
+    "image": "thumbnails-visuals/ffal-final.jpg"
   },
   {
     "id": "bjarne-final",
     "title": "Paper Money: How Not to Store Value",
     "subtitle": "A scroll-driven video essay on currency devaluation",
-    "authors": ["Bjarne Wulfes"],
+    "authors": [
+      "Bjarne Wulfes"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-bjarne_final/",
     "repo": "https://github.com/data-journalism-26/final-project-bjarne_final",
     "category": "economics",
-    "tags": ["currency", "inflation", "video", "Blender"],
+    "tags": [
+      "currency",
+      "inflation",
+      "video",
+      "Blender"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "male-8.png",
-    "blurb": "A Blender-rendered, scroll-driven video on the long-run erosion of paper money's purchasing power."
+    "blurb": "A Blender-rendered, scroll-driven video on the long-run erosion of paper money's purchasing power.",
+    "image": "thumbnails-visuals/bjarne-final.jpg"
   },
   {
     "id": "ujwal-final",
     "title": "The Efficiency Trap",
     "subtitle": "When supply chains run through too few places",
-    "authors": ["Ujwal Neethipudi"],
+    "authors": [
+      "Ujwal Neethipudi"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-ujwal_final/",
     "repo": "https://github.com/data-journalism-26/final-project-ujwal_final",
     "category": "economics",
-    "tags": ["supply chains", "chokepoints", "Hormuz", "energy"],
+    "tags": [
+      "supply chains",
+      "chokepoints",
+      "Hormuz",
+      "energy"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "male-9.png",
-    "blurb": "From the Strait of Hormuz to rare earth magnets — how concentration risk makes global supply chains fragile."
+    "blurb": "From the Strait of Hormuz to rare earth magnets — how concentration risk makes global supply chains fragile.",
+    "image": "thumbnails-visuals/ujwal-final.jpg"
   },
   {
     "id": "anna-final",
     "title": "Price Convergence in Europe",
     "subtitle": "Are Central and Eastern European prices catching up — and at what cost?",
-    "authors": ["Anna Jurek"],
+    "authors": [
+      "Anna Jurek"
+    ],
     "url": "https://rawcdn.githack.com/data-journalism-26/final-project-anna_final/main/index.html",
     "repo": "https://github.com/data-journalism-26/final-project-anna_final",
     "category": "economics",
-    "tags": ["CEE", "inflation", "Eurostat", "living standards"],
+    "tags": [
+      "CEE",
+      "inflation",
+      "Eurostat",
+      "living standards"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "female-9.png",
-    "blurb": "Tracking how price convergence in Europe accelerated during the inflation shock — and whether wages kept up."
+    "blurb": "Tracking how price convergence in Europe accelerated during the inflation shock — and whether wages kept up.",
+    "image": "thumbnails-visuals/anna-final.jpg"
   },
   {
     "id": "elena-m-final",
     "title": "Are Data Centres Driving Up Your Electricity Bill?",
     "subtitle": "Examining the relationship between data centre growth and electricity prices in Virginia",
-    "authors": ["Elena Murray"],
+    "authors": [
+      "Elena Murray"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-elena_m_final/",
     "repo": "https://github.com/data-journalism-26/final-project-elena_m_final",
     "category": "america",
-    "tags": ["data centres", "electricity prices", "Virginia", "scrollytelling"],
+    "tags": [
+      "data centres",
+      "electricity prices",
+      "Virginia",
+      "scrollytelling"
+    ],
     "assignment": "final-project",
     "editors_pick": true,
     "thumbnail": "female-3.png",
-    "blurb": "A scrollytelling investigation combining infrastructure data, wholesale electricity prices, and census tract matching to test whether data centres raise local energy costs."
+    "blurb": "A scrollytelling investigation combining infrastructure data, wholesale electricity prices, and census tract matching to test whether data centres raise local energy costs.",
+    "image": "thumbnails-visuals/elena-m-final.jpg"
   },
   {
     "id": "maria-final",
     "title": "Food Deserts in the United States",
     "subtitle": "Mapping exclusion and systemic inequality",
-    "authors": ["Maria Ferro"],
+    "authors": [
+      "Maria Ferro"
+    ],
     "url": "https://data-journalism-26.github.io/final-project-maria_final/",
     "repo": "https://github.com/data-journalism-26/final-project-maria_final",
     "category": "america",
-    "tags": ["food deserts", "redlining", "U.S.", "Mapbox"],
+    "tags": [
+      "food deserts",
+      "redlining",
+      "U.S.",
+      "Mapbox"
+    ],
     "assignment": "final-project",
     "editors_pick": false,
     "thumbnail": "female-10.png",
-    "blurb": "Connecting historical redlining to present-day food deserts using USDA data and OSM-scraped retail locations."
+    "blurb": "Connecting historical redlining to present-day food deserts using USDA data and OSM-scraped retail locations.",
+    "image": "thumbnails-visuals/maria-final.jpg"
   },
   {
     "id": "giorgio-db2",
     "title": "Remigrazione: How a Word Entered Italian Parliament",
     "subtitle": "Tracking the journey of a far-right term from street slogan to governing-party policy",
-    "authors": ["Giorgio Coppola"],
+    "authors": [
+      "Giorgio Coppola"
+    ],
     "url": "https://data-journalism-26.github.io/data-bit-2-giorgio_2/",
     "repo": "https://github.com/data-journalism-26/data-bit-2-giorgio_2",
     "category": "domestic-politics",
-    "tags": ["Italy", "far right", "parliament", "text analysis"],
+    "tags": [
+      "Italy",
+      "far right",
+      "parliament",
+      "text analysis"
+    ],
     "assignment": "data-bit-2",
     "editors_pick": true,
     "thumbnail": "male-1.png",
-    "blurb": "From neonazi street groups to the Italian parliamentary record in two years. A word's journey, tracked through every single mention."
+    "blurb": "From neonazi street groups to the Italian parliamentary record in two years. A word's journey, tracked through every single mention.",
+    "image": "thumbnails-visuals/giorgio-db2.jpg"
   },
   {
     "id": "elenaiva-db2",
     "title": "Russia's Systematic Targeting of Ukraine's Power Grid",
     "subtitle": "Mapping three years of attacks on energy infrastructure",
-    "authors": ["Elena Dreyer"],
+    "authors": [
+      "Elena Dreyer"
+    ],
     "url": "https://data-journalism-26.github.io/data-bit-2-elenaiva/",
     "repo": "https://github.com/data-journalism-26/data-bit-2-elenaiva",
     "category": "conflict",
-    "tags": ["Ukraine", "energy", "conflict events", "scrollytelling"],
+    "tags": [
+      "Ukraine",
+      "energy",
+      "conflict events",
+      "scrollytelling"
+    ],
     "assignment": "data-bit-2",
     "editors_pick": true,
     "thumbnail": "female-1.png",
-    "blurb": "Seven waves of attacks on Ukraine's power plants and substations, mapped using conflict event data and OpenStreetMap infrastructure."
+    "blurb": "Seven waves of attacks on Ukraine's power plants and substations, mapped using conflict event data and OpenStreetMap infrastructure.",
+    "image": "thumbnails-visuals/elenaiva-db2.jpg"
   },
   {
     "id": "leticia-xiaohan-db2",
     "title": "Berlin's First of May: A Map of Displacement",
     "subtitle": "How the route of the May Day demo traces who got pushed out",
-    "authors": ["Leticia Figueiredo Collado", "Xiaohan Wu"],
+    "authors": [
+      "Leticia Figueiredo Collado",
+      "Xiaohan Wu"
+    ],
     "url": "https://data-journalism-26.github.io/data-bit-2-xiaohan_leticia_db2/",
     "repo": "https://github.com/data-journalism-26/data-bit-2-xiaohan_leticia_db2",
     "category": "berlin",
-    "tags": ["Berlin", "May Day", "gentrification", "scrollytelling", "history"],
+    "tags": [
+      "Berlin",
+      "May Day",
+      "gentrification",
+      "scrollytelling",
+      "history"
+    ],
     "assignment": "data-bit-2",
     "editors_pick": true,
     "thumbnail": "female-7.png",
-    "blurb": "The demo route is a map of displacement. Tracing 40 years of Berlin's May Day protests through geography, arrests, and shifting neighborhoods."
+    "blurb": "The demo route is a map of displacement. Tracing 40 years of Berlin's May Day protests through geography, arrests, and shifting neighborhoods.",
+    "image": "thumbnails-visuals/leticia-xiaohan-db2.jpg"
   },
   {
     "id": "luca-daniel-db1",
     "title": "The Invisible Battlefield: GPS Interference from Space",
     "subtitle": "How GPS jamming spread across four conflict zones",
-    "authors": ["Luca Vellage", "Daniel Boppert"],
+    "authors": [
+      "Luca Vellage",
+      "Daniel Boppert"
+    ],
     "url": "https://data-journalism-26.github.io/data-bit-1-luca-daniel/",
     "repo": "https://github.com/data-journalism-26/data-bit-1-luca-daniel",
     "category": "conflict",
-    "tags": ["GPS", "jamming", "aviation", "ADS-B", "scrollytelling"],
+    "tags": [
+      "GPS",
+      "jamming",
+      "aviation",
+      "ADS-B",
+      "scrollytelling"
+    ],
     "assignment": "data-bit-1",
     "editors_pick": true,
     "thumbnail": "male-2.png",
-    "blurb": "Scraping gpsjam.org to build a longitudinal dataset of GPS interference and tracking its spread across Ukraine, the Middle East, and the Baltic."
+    "blurb": "Scraping gpsjam.org to build a longitudinal dataset of GPS interference and tracking its spread across Ukraine, the Middle East, and the Baltic.",
+    "image": "thumbnails-visuals/luca-daniel-db1.jpg"
   },
   {
     "id": "leticia-xiaohan-db1",
     "title": "Berlin's Emergency Response: Your Neighborhood in Numbers",
     "subtitle": "An interactive tool exploring fire brigade response times across Berlin",
-    "authors": ["Leticia Figueiredo Collado", "Xiaohan Wu"],
+    "authors": [
+      "Leticia Figueiredo Collado",
+      "Xiaohan Wu"
+    ],
     "url": "https://data-journalism-26.github.io/data-bit-1-leticia-xiaohan/",
     "repo": "https://github.com/data-journalism-26/data-bit-1-leticia-xiaohan",
     "category": "berlin",
-    "tags": ["Berlin", "emergency services", "interactive", "local data"],
+    "tags": [
+      "Berlin",
+      "emergency services",
+      "interactive",
+      "local data"
+    ],
     "assignment": "data-bit-1",
     "editors_pick": false,
     "thumbnail": "female-7.png",
-    "blurb": "Select your neighborhood, see your local emergency statistics, and compare to the rest of Berlin."
+    "blurb": "Select your neighborhood, see your local emergency statistics, and compare to the rest of Berlin.",
+    "image": "thumbnails-visuals/leticia-xiaohan-db1.jpg"
   },
   {
     "id": "lou-db1",
     "title": "The Attention Economy of Comedy Scandals",
     "subtitle": "When comedians trend on Wikipedia, what kind of attention sticks?",
-    "authors": ["Lou Caressa"],
+    "authors": [
+      "Lou Caressa"
+    ],
     "url": "https://data-journalism-26.github.io/data-bit-1-lou/",
     "repo": "https://github.com/data-journalism-26/data-bit-1-lou",
     "category": "investigation",
-    "tags": ["Wikipedia", "comedy", "attention", "interactive"],
+    "tags": [
+      "Wikipedia",
+      "comedy",
+      "attention",
+      "interactive"
+    ],
     "assignment": "data-bit-1",
     "editors_pick": false,
     "thumbnail": "female-4.png",
-    "blurb": "Jokes sustain attention better than controversy. A data-driven look at what makes comedians trend."
+    "blurb": "Jokes sustain attention better than controversy. A data-driven look at what makes comedians trend.",
+    "image": "thumbnails-visuals/lou-db1.jpg"
   },
   {
     "id": "sophia-db1",
     "title": "Algeria's Migration Enforcement: Traces in Military Reports",
     "subtitle": "Scraping Algeria's Ministry of Defence to track migration-related arrests",
-    "authors": ["Sophia Hiss"],
+    "authors": [
+      "Sophia Hiss"
+    ],
     "url": "https://data-journalism-26.github.io/data-bit-1-sophia/",
     "repo": "https://github.com/data-journalism-26/data-bit-1-sophia",
     "category": "migration",
-    "tags": ["Algeria", "migration", "web scraping", "scrollytelling"],
+    "tags": [
+      "Algeria",
+      "migration",
+      "web scraping",
+      "scrollytelling"
+    ],
     "assignment": "data-bit-1",
     "editors_pick": false,
     "thumbnail": "female-2.png",
-    "blurb": "Algeria refuses EU cooperation on migration data. But its own military publishes weekly arrest figures — if you know where to scrape."
+    "blurb": "Algeria refuses EU cooperation on migration data. But its own military publishes weekly arrest figures — if you know where to scrape.",
+    "image": "thumbnails-visuals/sophia-db1.jpg"
   },
   {
     "id": "ashley-db2",
     "title": "America's Silent Killer: Heat Deaths in the United States",
     "subtitle": "How the official death toll obscures the true cost of extreme heat",
-    "authors": ["Ashley Razzo"],
+    "authors": [
+      "Ashley Razzo"
+    ],
     "url": "https://data-journalism-26.github.io/data-bit-2-ashley-razo/",
     "repo": "https://github.com/data-journalism-26/data-bit-2-ashley-razo",
     "category": "climate",
-    "tags": ["heat deaths", "U.S.", "excess mortality", "visualization"],
+    "tags": [
+      "heat deaths",
+      "U.S.",
+      "excess mortality",
+      "visualization"
+    ],
     "assignment": "data-bit-2",
     "editors_pick": false,
     "thumbnail": "female-8.png",
-    "blurb": "Heat kills more Americans than hurricanes, tornadoes, and floods combined — but only if you count correctly."
+    "blurb": "Heat kills more Americans than hurricanes, tornadoes, and floods combined — but only if you count correctly.",
+    "image": "thumbnails-visuals/ashley-db2.jpg"
   }
 ]
