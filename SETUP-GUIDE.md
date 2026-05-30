@@ -92,9 +92,14 @@ Also add a small "About the course" expandable section in the footer that links 
 Review the site for:
 1. All project URLs resolve (no broken links for null URLs - those should link to repo).
 2. Mobile layout works (cards stack, hero text is readable, filter bar doesn't break).
-3. Category sections with only one project don't look empty.
+3. Categories: Make sure every category features at least 2 articles. Reduce overall number of categories. One category should be on Berlin (e.g. for the firefighter and the may 1st pieces), another one on geographic deep dives into America ("Oh, America"), featuring food deserts, the native Americans piece, the data centers piece and others who focus on the US
 4. The page loads fast (no heavy dependencies, images are lazy-loaded).
-5. Add an Open Graph meta tag so the page previews nicely when shared on social media. Title: "Data Journalism Portfolio - Hertie School 2026". Description: "Student projects from the Data Journalism course at the Hertie School, Berlin."
+5. For each category, feature one piece more prominently and the others as smaller thumbnails. Also, consider using two 
+6. Add an Open Graph meta tag so the page previews nicely when shared on social media. Title: "The Hertie Times". Description: "Student projects from the Data Journalism course at the Hertie School, Berlin."
+7. Author names (e.g., Daniel Boppert, not Thiele)
+8. Use author thumbnails. I added a few in the thumbnails folder. Assign them randomly.
+9. Use of colors and other design features. Make the Title more colorful with background colors. Also, try to integrate a unique style. I like low-poly and areal designs with a reduced but aestethic color palette.
+10. Add a column to the right, similar to how opinion pieces are catered on nytimes or washington post. Use those to promote selected data bits.
 ```
 
 ---
