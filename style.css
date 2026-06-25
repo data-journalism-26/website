@@ -77,8 +77,9 @@ img { display: block; max-width: 100%; }
 }
 .masthead-name .mn-front { position: relative; color: var(--ink); z-index: 1; }
 .masthead-slogan {
-  display: inline-block;
-  margin-top: 1.4rem;
+  display: block;
+  width: fit-content;
+  margin: 1.4rem auto 0;
   background: var(--pink);
   color: #2a0014;
   font-weight: 700;
