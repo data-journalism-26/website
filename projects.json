@@ -182,7 +182,7 @@
     ],
     "url": "https://data-journalism-26.github.io/final-project-aishwarya_final/",
     "repo": "https://github.com/data-journalism-26/final-project-aishwarya_final",
-    "category": "investigation",
+    "category": "domestic-politics",
     "tags": [
       "Turkey",
       "press freedom",
@@ -195,8 +195,7 @@
     "blurb": "A decade of journalists detained, sued, and silenced across Türkiye, plotted on a single map. The geography of a slow crackdown.",
     "image": "thumbnails-visuals/aishwarya-final.jpg",
     "image_pano": null,
-    "image_square": null,
-    "lead": true
+    "image_square": null
   },
   {
     "id": "leticia-xiaohan-final",
@@ -409,7 +408,7 @@
     ],
     "url": "https://data-journalism-26.github.io/data-bit-1-lou/",
     "repo": "https://github.com/data-journalism-26/data-bit-1-lou",
-    "category": "investigation",
+    "category": "public-opinion",
     "tags": [
       "Wikipedia",
       "comedy",
@@ -417,7 +416,7 @@
       "interactive"
     ],
     "assignment": "data-bit-1",
-    "editors_pick": true,
+    "editors_pick": false,
     "thumbnail": "emma-lou-caressa.png",
     "blurb": "When a comedian lands in the headlines, what kind of fame lasts? A trip through the traffic spikes on Wikipedia.",
     "image": "thumbnails-visuals/lou-db1.jpg",
@@ -447,5 +446,79 @@
     "image": "thumbnails-visuals/sophia-db1.jpg",
     "image_pano": "thumbnails-stories/sophia-hiss-db1-pano.jpg",
     "image_square": "thumbnails-stories/sophia-hiss-db1-square.jpg"
+  },
+  {
+    "id": "oliver-db1",
+    "title": "Why You're Probably Not a Neutral Moderator",
+    "subtitle": "What you believe shapes what you'd delete",
+    "authors": [
+      "Oliver Pollex"
+    ],
+    "url": "https://data-journalism-26.github.io/data-bit-1-oliver/",
+    "repo": "https://github.com/data-journalism-26/data-bit-1-oliver",
+    "category": "public-opinion",
+    "tags": [
+      "content moderation",
+      "myside bias",
+      "experiment",
+      "cross-national"
+    ],
+    "assignment": "data-bit-1",
+    "editors_pick": false,
+    "thumbnail": "oliver-pollex.png",
+    "blurb": "An experiment across 10 countries and 150,000 judgments finds that your opinion on a topic predicts how you'd moderate it — far more than who you are.",
+    "image_pano": null,
+    "image_square": null,
+    "image": null
+  },
+  {
+    "id": "oliver-farhan-db2",
+    "title": "Is an Indo-German Defence Partnership the Ultimate Trump Card?",
+    "subtitle": "Reading the Bundestag's growing gaze on India",
+    "authors": [
+      "Oliver Pollex",
+      "Farhan Shaik"
+    ],
+    "url": "https://data-journalism-26.github.io/data-bit-2-oliver-farhan/",
+    "repo": "https://github.com/data-journalism-26/data-bit-2-oliver-farhan",
+    "category": "domestic-politics",
+    "tags": [
+      "Bundestag",
+      "India",
+      "defence",
+      "text analysis"
+    ],
+    "assignment": "data-bit-2",
+    "editors_pick": false,
+    "thumbnail": "oliver-pollex.png",
+    "blurb": "As Germany looks to hedge against Washington, India keeps surfacing in parliament. The case for an Indo-German defence partnership, traced through 25 years of Bundestag debate.",
+    "image_pano": null,
+    "image_square": null,
+    "image": null
+  },
+  {
+    "id": "oliver-ujwal-db3",
+    "title": "Germany's Global Gaze",
+    "subtitle": "Which countries the Bundestag talks about, 2000–2025",
+    "authors": [
+      "Oliver Pollex",
+      "Ujwal Neethipudi"
+    ],
+    "url": "https://data-journalism-26.github.io/data-bit-3-oliver-ujwal/",
+    "repo": "https://github.com/data-journalism-26/data-bit-3-oliver-ujwal",
+    "category": "domestic-politics",
+    "tags": [
+      "Bundestag",
+      "foreign policy",
+      "text analysis",
+      "geopolitics"
+    ],
+    "assignment": "data-bit-3",
+    "editors_pick": false,
+    "thumbnail": "oliver-pollex.png",
+    "blurb": "Twenty-five years of parliamentary speeches, mapped by the nations they name — from the War on Terror to the war in Ukraine.",
+    "image_pano": null,
+    "image_square": null,
+    "image": null
   }
 ]

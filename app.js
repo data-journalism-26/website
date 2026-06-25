@@ -6,7 +6,6 @@ const CATEGORY_LABELS = {
   'public-opinion':    'Public Opinion & Polling',
   'domestic-politics': 'Domestic Politics',
   'economics':         'Economics & Trade',
-  'investigation':     'Investigations',
   'berlin':            'Dit is Berlin',
 };
 
@@ -17,7 +16,6 @@ const CATEGORY_SHORT = {
   'public-opinion':    'Opinion',
   'domestic-politics': 'Politics',
   'economics':         'Economics',
-  'investigation':     'Reports',
   'berlin':            'Berlin',
 };
 
@@ -28,7 +26,6 @@ const CATEGORY_ACCENT = {
   'public-opinion':    '#c6ff3a',
   'domestic-politics': '#ff7a1a',
   'economics':         '#b06bff',
-  'investigation':     '#ffe23d',
   'berlin':            '#00e0a8',
 };
 
@@ -38,6 +35,7 @@ const ASSIGNMENT_LABELS = {
   'final-project': 'Final Project',
   'data-bit-1':    'Short Take',
   'data-bit-2':    'Short Take',
+  'data-bit-3':    'Short Take',
 };
 
 // Author → photo (in thumbnails-authors/)
@@ -55,6 +53,8 @@ const AUTHORS = {
   'Bjarne Schinzel':            'bjarne-schinzel.png',
   'Elena Murray':               'elena-murray.png',
   'Daniel Boppert':             'daniel-boppert.png',
+  'Farhan Shaik':               'farhan-shaik.png',
+  'Ujwal Neethipudi':           'ujwal-neethipudi.png',
 };
 
 // Curated featured grid: order controls hero (0), medium (1-2), small (3+).
@@ -66,7 +66,6 @@ const FEATURED_ORDER = [
   'leticia-xiaohan-db2',  // small — Berlin's First of May
   'oliver-final',         // small — the changing face of parliament
   'lou-final',            // small — don't trust the polls
-  'lou-db1',              // small — comedy scandals
   'luca-daniel-db1',      // small — GPS interference
 ];
 
@@ -158,13 +157,22 @@ function leadCardHTML(p) {
 </article>`;
 }
 
+// Side-card thumb: the article's picture if it has one, else the author photo.
+function sideThumbHTML(p) {
+  if (p.image_square || p.image_pano || p.image) return articleImgHTML(p, 'square');
+  if (p.thumbnail) {
+    return `<img src="thumbnails-authors/${esc(p.thumbnail)}" alt="${esc(p.authors[0])}" loading="lazy" onerror="this.parentNode.classList.add('img-black');this.remove()">`;
+  }
+  return '';
+}
+
 function sideCardHTML(p) {
   const href        = esc(projectHref(p));
   const assignLabel = ASSIGNMENT_LABELS[p.assignment] || p.assignment;
   return `<article class="story-side"
     data-title="${esc(p.title.toLowerCase())}"
     data-authors="${esc(p.authors.join(' ').toLowerCase())}">
-  <div class="side-thumb">${articleImgHTML(p, 'square')}</div>
+  <div class="side-thumb">${sideThumbHTML(p)}</div>
   <div class="side-body">
     <h4 class="card-headline"><a class="card-cover-link" href="${href}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a></h4>
     <p class="card-byline">${authorLine(p.authors)} · ${esc(assignLabel)}</p>
