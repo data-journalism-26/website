@@ -2,7 +2,7 @@
 
 A student data journalism showcase built for **GRAD-E1493: Data Journalism** at the Hertie School, Berlin (Spring 2026), taught by Prof. Simon Munzert.
 
-Live site: <https://data-journalism-26.github.io/website/>
+Live site: <https://data-journalism-26.github.io/>
 
 ## What it is
 
