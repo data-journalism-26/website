@@ -1,8 +1,8 @@
 [
   {
     "id": "elenadreyer-final",
-    "title": "How a Radar Satellite Tracks Russian Attacks on Ukraine's Power Grid",
-    "subtitle": "When the lights go out, satellites are watching",
+    "title": "The Quiet Record",
+    "subtitle": "How a Radar Satellite Tracks Russian Attacks on Ukraine's Power Grid",
     "authors": [
       "Elena Dreyer"
     ],
@@ -322,6 +322,29 @@
     "image_square": "thumbnails-stories/elena-dreyer-db1-square.png"
   },
   {
+    "id": "elenaiva-db1",
+    "title": "Neue Kaufprämie und Spritpreis-Schock: Kommt jetzt der E-Auto-Boom? (German)",
+    "subtitle": "Germany's EV registrations overtake petrol for the first time",
+    "authors": [
+      "Elena Dreyer"
+    ],
+    "url": "https://elenaivadreyer.github.io/data-bit-1/",
+    "repo": "https://github.com/data-journalism-26/data-bit-1-elena3er",
+    "category": "economics",
+    "tags": [
+      "Germany",
+      "electric vehicles",
+      "subsidies",
+      "fuel prices"
+    ],
+    "assignment": "data-bit-1",
+    "editors_pick": false,
+    "thumbnail": "elena-dreyer.png",
+    "blurb": "A new income-based purchase subsidy and record-high fuel prices pushed German electric-vehicle registrations past petrol cars for the first time in March 2026.",
+    "image_pano": "thumbnails-stories/elena-dreyer-db1-pano.png",
+    "image_square": "thumbnails-stories/elena-dreyer-db1-square.png"
+  },
+  {
     "id": "leticia-xiaohan-db2",
     "title": "Berlin's First of May: A Map of Displacement",
     "subtitle": "The march is a map of displacement",
@@ -446,6 +469,29 @@
     "image": "thumbnails-visuals/sophia-db1.jpg",
     "image_pano": "thumbnails-stories/sophia-hiss-db1-pano.jpg",
     "image_square": "thumbnails-stories/sophia-hiss-db1-square.jpg"
+  },
+  {
+    "id": "sophia-db2",
+    "title": "Support for Democracy in the Arab World Persists",
+    "subtitle": "More than half still back it — in every survey wave since 2010",
+    "authors": [
+      "Sophia Hiss"
+    ],
+    "url": "https://data-journalism-26.github.io/data-bit-2-sophiahiss/",
+    "repo": "https://github.com/data-journalism-26/data-bit-2-sophiahiss",
+    "category": "public-opinion",
+    "tags": [
+      "Arab world",
+      "democracy",
+      "public opinion",
+      "Arab Barometer"
+    ],
+    "assignment": "data-bit-2",
+    "editors_pick": false,
+    "thumbnail": "sophia-hiss.png",
+    "blurb": "Despite wars, coups and crackdowns, more than half of people across 13 Arab countries still back democracy — in every single survey wave since 2010.",
+    "image_pano": "thumbnails-stories/sophia-hiss-db2-pano.jpg",
+    "image_square": "thumbnails-stories/sophia-hiss-db2-square.jpg"
   },
   {
     "id": "oliver-db1",
