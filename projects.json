@@ -96,8 +96,8 @@
     "thumbnail": "luca-verona-vellage.png",
     "blurb": "After Russia shut its airspace, Europe's flights to Asia found a narrow new path through the Caucasus — shadowed by the GPS jamming that now follows them.",
     "image": "thumbnails-visuals/luca-final.jpg",
-    "image_pano": null,
-    "image_square": null,
+    "image_pano": "thumbnails-stories/luca-vellage-final-pano.jpg",
+    "image_square": "thumbnails-stories/luca-vellage-final-square.jpg"
     "lead": true
   },
   {
@@ -175,8 +175,8 @@
   },
   {
     "id": "aishwarya-final",
-    "title": "The Geography of Silence — Press Freedom in Türkiye 2015–2025",
-    "subtitle": "Where the press went quiet",
+    "title": "The Geography of Silence",
+    "subtitle": "Mapping the Spatial Architecture of Media Repression in Türkiye — a data-driven investigation into a decade of documented violations.",
     "authors": [
       "Aishwarya Sampath"
     ],
@@ -199,8 +199,8 @@
   },
   {
     "id": "leticia-xiaohan-final",
-    "title": "From Ice Cream to Politics: How Opinions Become Numbers",
-    "subtitle": "It starts with ice cream",
+    "title": "From Ice Cream to Politics",
+    "subtitle": "How Opinions Become Numbers",
     "authors": [
       "Leticia Figueiredo Collado",
       "Xiaohan Wu"
@@ -225,7 +225,7 @@
   },
   {
     "id": "bjarne-final",
-    "title": "Paper Money: How Not to Store Value",
+    "title": "Marco Polo was the First European to Describe Paper Money - See What it has Become Today",
     "subtitle": "Watch your savings quietly melt",
     "authors": [
       "Bjarne Schinzel"
@@ -267,7 +267,7 @@
     "assignment": "final-project",
     "editors_pick": true,
     "thumbnail": "elena-murray.png",
-    "blurb": "Every search and stream runs through a data centre drawing serious power. In Virginia, a test of whether your electricity bill is footing it.",
+    "blurb": "The short answer: it depends. For residents in Virginia, home to the data centre capital of the world, higher costs are likely. Elsewhere, the picture is not as clear cut.",
     "image": "thumbnails-visuals/elena-m-final.jpg",
     "image_pano": "thumbnails-stories/elena-murray-final-pano.png",
     "image_square": "thumbnails-stories/elena-murray-final-square.jpg"
@@ -322,8 +322,8 @@
   },
   {
     "id": "leticia-xiaohan-db2",
-    "title": "Berlin's First of May: A Map of Displacement",
-    "subtitle": "The march is a map of displacement",
+    "title": "The Wandering Riot",
+    "subtitle": "An interactive history of Berlin's May Day",
     "authors": [
       "Leticia Figueiredo Collado",
       "Xiaohan Wu"
@@ -341,14 +341,14 @@
     "assignment": "data-bit-2",
     "editors_pick": true,
     "thumbnail": "leticia-figueiredo-collado.png",
-    "blurb": "Follow Berlin's May Day route and you're really tracing forty years of who got priced out of the city.",
+    "blurb": " Berlin's May Day is often told as a Kreuzberg story. But for 40 years, it has been chasing the city's left-wing scene across neighborhoods — and the map of where it went is a map of who got displaced.",
     "image": "thumbnails-visuals/leticia-xiaohan-db2.jpg",
     "image_pano": "thumbnails-stories/leticia-xiaohan-db2-pano.jpg",
     "image_square": "thumbnails-stories/leticia-xiaohan-db2-square.jpg"
   },
   {
     "id": "luca-daniel-db1",
-    "title": "The Invisible Battlefield: GPS Interference from Space",
+    "title": "Collateral Airspace: How Modern Conflict Jams the Skies",
     "subtitle": "Somewhere up there, GPS goes dark",
     "authors": [
       "Luca Vellage",
@@ -367,15 +367,15 @@
     "assignment": "data-bit-1",
     "editors_pick": true,
     "thumbnail": "luca-verona-vellage.png",
-    "blurb": "An invisible kind of interference is spreading across the world's conflict zones. Mapping where the signal drops — and why.",
+    "blurb": "Active conflict zones are shrinking civilian airspace - but beyond visible no-fly zones over battlefields, an invisible threat compounds the crisis. GPS interferences, a tool of modern defence, can render aircraft navigation systems unreliable far beyond the frontline.",
     "image": "thumbnails-visuals/luca-daniel-db1.jpg",
-    "image_pano": null,
-    "image_square": null
+    "image_pano": "thumbnails-stories/luca-vellage-db1-pano.jpg",
+    "image_square": "thumbnails-stories/luca-vellage-db1-square.jpg"
   },
   {
     "id": "leticia-xiaohan-db1",
-    "title": "Berlin's Emergency Response: Your Neighborhood in Numbers",
-    "subtitle": "How fast would help reach your street?",
+    "title": "Follow the sirens",
+    "subtitle": "Keeping track of the Berliner Feuerwehr activity near you",
     "authors": [
       "Leticia Figueiredo Collado",
       "Xiaohan Wu"
@@ -400,7 +400,7 @@
   },
   {
     "id": "lou-db1",
-    "title": "The Attention Economy of Comedy Scandals",
+    "title": "What puts a comedian on everyone's radar",
     "subtitle": "Does the scandal stick, or the joke?",
     "authors": [
       "Lou Caressa"
@@ -424,7 +424,7 @@
   },
   {
     "id": "sophia-db1",
-    "title": "Algeria's Migration Enforcement: Traces in Military Reports",
+    "title": "Inside Algeria's Migration Crackdown",
     "subtitle": "The arrests Europe never sees",
     "authors": [
       "Sophia Hiss"
