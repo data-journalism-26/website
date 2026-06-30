@@ -165,7 +165,7 @@ img { display: block; max-width: 100%; }
 .pick-sm { grid-column: span 2; }
 .pick-sm .card-image { aspect-ratio: 1/1; box-shadow: 5px 5px 0 var(--violet); }
 .pick-sm .card-headline { font-size: 1rem; }
-.pick-sm .card-blurb { display: none; }
+.pick-sm .card-blurb { display: block; }
 
 .pick-card:hover .card-image img, .story-lead:hover .card-image img { transform: scale(1.05); }
 

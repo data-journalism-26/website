@@ -127,7 +127,7 @@ function pickCardHTML(p, index) {
   const catLabel  = CATEGORY_LABELS[p.category] || p.category;
   const tag       = index === 0 ? 'h2' : index < 3 ? 'h3' : 'h4';
   const showSub   = index === 0;
-  const showBlurb = index < 3;
+  const showBlurb = true;
 
   return `<article class="pick-card ${sizeClass}" style="--accent:${accentFor(p.category)}">
   <div class="card-image">${articleImgHTML(p, shape)}</div>
@@ -152,6 +152,7 @@ function leadCardHTML(p) {
   <div class="card-body">
     <h3 class="card-headline"><a class="card-cover-link" href="${href}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a></h3>
     <p class="card-subtitle">${esc(p.subtitle)}</p>
+    <p class="card-blurb">${esc(p.blurb)}</p>
     <p class="card-byline">${authorThumbHTML(p)}${authorLine(p.authors)}</p>
   </div>
 </article>`;
